@@ -10,23 +10,26 @@
 
 @interface ConvertersViewController_iPad ()
 
+@property (weak, nonatomic) IBOutlet UITextField *milesText;
+@property (weak, nonatomic) IBOutlet UIButton *milesConvertBtn;
+@property (weak, nonatomic) IBOutlet UILabel *kmResult;
+@property (weak, nonatomic) IBOutlet UITextField *celsiusText;
+@property (weak, nonatomic) IBOutlet UIButton *degreConvertBtn;
+@property (weak, nonatomic) IBOutlet UILabel *fahrenheitResult;
 @end
 
 @implementation ConvertersViewController_iPad
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	self.milesText.accessibilityIdentifier = kMilesInputText;
+    self.milesConvertBtn.accessibilityIdentifier = kMilesToKmBtn;
+    self.kmResult.accessibilityIdentifier = kKmResult;
+    
+    self.celsiusText.accessibilityIdentifier = kCelsiusInputText;
+    self.degreConvertBtn.accessibilityIdentifier = kCelsiusToFahrenheitBtn;
+    self.fahrenheitResult.accessibilityIdentifier = kFahrenheitResult;
 }
 
 - (void)didReceiveMemoryWarning

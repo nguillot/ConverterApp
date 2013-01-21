@@ -1,23 +1,141 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Converters View Controller i Pad-->
         <scene sceneID="4">
             <objects>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="ConvertersViewController_iPad" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Miles :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uJ-7F-JdU">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZP-cb-nig">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3q3-03-bEC">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="fIO-0r-aTq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0 Km" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSV-rv-Q3a">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="l2p-ky-tSM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="°C :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hs5-R7-JZb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ILX-Vl-KI5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X28-Me-LJI">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8ji-oH-a83">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="qPL-lm-URs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="32 °F" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UM-bf-ZkE">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Convertisseur très basique" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeg-8d-kT2">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="304" id="JQO-yg-8eF"/>
+                                    <constraint firstAttribute="height" constant="21" id="vQV-2A-EoP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IZP-cb-nig" firstAttribute="baseline" secondItem="3q3-03-bEC" secondAttribute="baseline" type="default" id="4ff-95-kfq"/>
+                            <constraint firstItem="X28-Me-LJI" firstAttribute="top" secondItem="5" secondAttribute="top" constant="309" id="6gH-ev-2E8"/>
+                            <constraint firstItem="Jeg-8d-kT2" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="252" id="8KK-2j-0kb"/>
+                            <constraint firstItem="6uJ-7F-JdU" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="57" id="8qb-lN-KUu"/>
+                            <constraint firstItem="3q3-03-bEC" firstAttribute="top" secondItem="6uJ-7F-JdU" secondAttribute="top" type="default" id="FC7-gh-bnT"/>
+                            <constraint firstItem="iSV-rv-Q3a" firstAttribute="leading" secondItem="1UM-bf-ZkE" secondAttribute="leading" type="default" id="MdS-WH-ZhR"/>
+                            <constraint firstItem="8ji-oH-a83" firstAttribute="leading" secondItem="3q3-03-bEC" secondAttribute="leading" type="default" id="MpI-rJ-fbO"/>
+                            <constraint firstItem="hs5-R7-JZb" firstAttribute="top" secondItem="8ji-oH-a83" secondAttribute="top" type="default" id="OuY-XE-yw0"/>
+                            <constraint firstItem="Jeg-8d-kT2" firstAttribute="top" secondItem="5" secondAttribute="top" constant="14" id="Sjq-yy-vJm"/>
+                            <constraint firstItem="X28-Me-LJI" firstAttribute="centerX" secondItem="Jeg-8d-kT2" secondAttribute="centerX" type="default" id="SsU-ZI-WEB"/>
+                            <constraint firstItem="iSV-rv-Q3a" firstAttribute="trailing" secondItem="1UM-bf-ZkE" secondAttribute="trailing" type="default" id="U9B-VF-XQb"/>
+                            <constraint firstItem="iSV-rv-Q3a" firstAttribute="baseline" secondItem="6uJ-7F-JdU" secondAttribute="baseline" type="default" id="XBO-0e-bVc"/>
+                            <constraint firstItem="IZP-cb-nig" firstAttribute="top" secondItem="5" secondAttribute="top" constant="108" id="XsF-QB-0Hb"/>
+                            <constraint firstItem="1UM-bf-ZkE" firstAttribute="top" secondItem="5" secondAttribute="top" constant="323" id="YY6-ep-fq9"/>
+                            <constraint firstItem="X28-Me-LJI" firstAttribute="baseline" secondItem="8ji-oH-a83" secondAttribute="baseline" type="default" id="efp-A7-vRu"/>
+                            <constraint firstItem="8ji-oH-a83" firstAttribute="trailing" secondItem="3q3-03-bEC" secondAttribute="trailing" type="default" id="fLk-ZB-QMs"/>
+                            <constraint firstAttribute="trailing" secondItem="iSV-rv-Q3a" secondAttribute="trailing" constant="56" id="gFq-dh-MLk"/>
+                            <constraint firstItem="3q3-03-bEC" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="121" id="gnt-bP-UyB"/>
+                            <constraint firstItem="X28-Me-LJI" firstAttribute="baseline" secondItem="hs5-R7-JZb" secondAttribute="baseline" type="default" id="tjY-CI-VPr"/>
+                            <constraint firstItem="hs5-R7-JZb" firstAttribute="leading" secondItem="6uJ-7F-JdU" secondAttribute="leading" type="default" id="wQh-iC-4wh"/>
+                            <constraint firstItem="X28-Me-LJI" firstAttribute="leading" secondItem="IZP-cb-nig" secondAttribute="leading" type="default" id="xec-aY-gSW"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="celsiusText" destination="8ji-oH-a83" id="bCi-9w-yY2"/>
+                        <outlet property="degreConvertBtn" destination="X28-Me-LJI" id="aup-Wx-s8N"/>
+                        <outlet property="fahrenheitResult" destination="1UM-bf-ZkE" id="Hzt-Le-lqZ"/>
+                        <outlet property="kmResult" destination="iSV-rv-Q3a" id="Dyj-wx-119"/>
+                        <outlet property="milesConvertBtn" destination="IZP-cb-nig" id="GQm-Ff-CLq"/>
+                        <outlet property="milesText" destination="3q3-03-bEC" id="S7b-DO-IBk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-142" y="-158"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="ConvertersViewController_iPad" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ConvertersViewController_iPad.h"/>
+            <relationships>
+                <relationship kind="outlet" name="celsiusText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="degreConvertBtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="kmResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="milesConvertBtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="milesText" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

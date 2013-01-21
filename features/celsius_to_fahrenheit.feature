@@ -3,16 +3,26 @@
 Feature: Celsius converter
 	As a scientist
 	I want to converter celsius to fahrenheit
+    So I can work more efficiently
 
+@iPhone
 Scenario Outline: Convert celsius to fahrenheit
 	Given I launch the app
 	When I navigate to '°C/°F'
-	And I enter <celsius>°C
-	And I press the 'Convert celsius' button
-	Then I should have <fahrenheit>°F
+	And I fill in  'celsius input text' with <celsius>
+	And I touch the 'convert celsius to fahrenheit' button
+	Then I should see <fahrenheit> in 'fahrenheit result'
 
+@iPad
+Scenario Outline: Convert celsius to fahrenheit
+	Given I launch the app
+	When I fill in  'celsius input text' with <celsius>
+	And I touch the 'convert celsius to fahrenheit' button
+	Then I should see <fahrenheit> in 'fahrenheit result'
+
+@iPhone @iPad
 Examples:
 	| celsius	| fahrenheit	|
-	| 0	        | 32	        |
-	| 5	        | 41	        |
-	| 20	    | 68	        |
+	| 0	        | 32°F	        |
+	| 5	        | 41°F	        |
+	| 20	    | 68°F	        |

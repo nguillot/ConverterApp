@@ -3,16 +3,26 @@
 Feature: Miles converter
 	As a scientist
 	I want to converter miles in km
+    So I can work more efficiently
 
+@iPhone
 Scenario Outline: Convert miles to km
 	Given I launch the app
-	When I navigate to 'miles/km'                               
-	And I enter <miles> mile(s)
-	And I press the 'Convert miles' button
-	Then I should have <km> km
+	When I navigate to 'miles/km'
+	And I fill in  'miles input text' with <miles>
+	And I touch the 'convert miles to km' button
+	Then I should see <km> in 'km result'
 
+@iPad
+Scenario Outline: Convert miles to km
+	Given I launch the app
+	When I fill in  'miles input text' with <miles>
+	And I touch the 'convert miles to km' button
+	Then I should see <km> in 'km result'
+
+@iPhone @iPad
 Examples:
 	| miles	| km	|
-	| 0	| 0	|  
-	| 1	| 1.609	|
-	| 2	| 3.218	|     
+	| 0	    | 0	    |
+	| 1	    | 1.609	|
+	| 2	    | 3.218	|

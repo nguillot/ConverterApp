@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E24A54F16A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A54E16A98C1A00FD1553 /* MileToKmViewController_iPhone.m */; };
+		2E24A55016A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A54E16A98C1A00FD1553 /* MileToKmViewController_iPhone.m */; };
+		2E24A55416A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A55316A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m */; };
+		2E24A55516A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A55316A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m */; };
+		2E24A55816A98C7C00FD1553 /* ConvertersViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A55716A98C7C00FD1553 /* ConvertersViewController_iPad.m */; };
+		2E24A55916A98C7C00FD1553 /* ConvertersViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A55716A98C7C00FD1553 /* ConvertersViewController_iPad.m */; };
+		2E5B42C416A855D80025FD40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EA77C16A6C06700E460B7 /* main.m */; };
+		2E5B42C516A855D80025FD40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EA78016A6C06700E460B7 /* AppDelegate.m */; };
+		2E5B42C816A855D80025FD40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77016A6C06700E460B7 /* UIKit.framework */; };
+		2E5B42C916A855D80025FD40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77216A6C06700E460B7 /* Foundation.framework */; };
+		2E5B42CA16A855D80025FD40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77416A6C06700E460B7 /* CoreGraphics.framework */; };
+		2E5B42CC16A855D80025FD40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA77916A6C06700E460B7 /* InfoPlist.strings */; };
+		2E5B42CD16A855D80025FD40 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78216A6C06700E460B7 /* Default.png */; };
+		2E5B42CE16A855D80025FD40 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78416A6C06700E460B7 /* Default@2x.png */; };
+		2E5B42CF16A855D80025FD40 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78616A6C06700E460B7 /* Default-568h@2x.png */; };
+		2E5B42D016A855D80025FD40 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78816A6C06700E460B7 /* MainStoryboard_iPhone.storyboard */; };
+		2E5B42D116A855D80025FD40 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78B16A6C06700E460B7 /* MainStoryboard_iPad.storyboard */; };
+		2E5B42D916A8564D0025FD40 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5B42D816A8564D0025FD40 /* calabash.framework */; };
+		2E5B42DB16A8566A0025FD40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5B42DA16A8566A0025FD40 /* CFNetwork.framework */; };
 		2E9EA77116A6C06700E460B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77016A6C06700E460B7 /* UIKit.framework */; };
 		2E9EA77316A6C06700E460B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77216A6C06700E460B7 /* Foundation.framework */; };
 		2E9EA77516A6C06700E460B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77416A6C06700E460B7 /* CoreGraphics.framework */; };
@@ -18,12 +37,12 @@
 		2E9EA78716A6C06700E460B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78616A6C06700E460B7 /* Default-568h@2x.png */; };
 		2E9EA78A16A6C06700E460B7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78816A6C06700E460B7 /* MainStoryboard_iPhone.storyboard */; };
 		2E9EA78D16A6C06700E460B7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78B16A6C06700E460B7 /* MainStoryboard_iPad.storyboard */; };
-		2E9EA79016A6C06700E460B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EA78F16A6C06700E460B7 /* ViewController.m */; };
 		2E9EA79816A6C06700E460B7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA79716A6C06700E460B7 /* SenTestingKit.framework */; };
 		2E9EA79916A6C06700E460B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77016A6C06700E460B7 /* UIKit.framework */; };
 		2E9EA79A16A6C06700E460B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77216A6C06700E460B7 /* Foundation.framework */; };
 		2E9EA7A216A6C06700E460B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA7A016A6C06700E460B7 /* InfoPlist.strings */; };
-		2E9EA7A516A6C06700E460B7 /* ConverterAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EA7A416A6C06700E460B7 /* ConverterAppTests.m */; };
+		2E9EA7B616A6F54400E460B7 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA7B516A6F54400E460B7 /* libKiwi.a */; };
+		2E9EA7B816A6F5F900E460B7 /* MathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EA7B716A6F5F900E460B7 /* MathSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +56,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E24A54D16A98C1A00FD1553 /* MileToKmViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileToKmViewController_iPhone.h; sourceTree = "<group>"; };
+		2E24A54E16A98C1A00FD1553 /* MileToKmViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileToKmViewController_iPhone.m; sourceTree = "<group>"; };
+		2E24A55216A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelsiusToFahrenheitViewController_iPhone.h; sourceTree = "<group>"; };
+		2E24A55316A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelsiusToFahrenheitViewController_iPhone.m; sourceTree = "<group>"; };
+		2E24A55616A98C7C00FD1553 /* ConvertersViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertersViewController_iPad.h; sourceTree = "<group>"; };
+		2E24A55716A98C7C00FD1553 /* ConvertersViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertersViewController_iPad.m; sourceTree = "<group>"; };
+		2E24A55A16A9937100FD1553 /* AccessibilityIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessibilityIds.h; sourceTree = "<group>"; };
+		2E5B42D516A855D80025FD40 /* ConverterApp-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConverterApp-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5B42D716A855D90025FD40 /* ConverterApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConverterApp copy-Info.plist"; path = "/Users/ARD/Documents/projets/ConverterApp/ConverterApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		2E5B42D816A8564D0025FD40 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		2E5B42DA16A8566A0025FD40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		2E9EA76C16A6C06700E460B7 /* ConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9EA77016A6C06700E460B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2E9EA77216A6C06700E460B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,17 +82,27 @@
 		2E9EA78616A6C06700E460B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2E9EA78916A6C06700E460B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2E9EA78C16A6C06700E460B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		2E9EA78E16A6C06700E460B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E9EA78F16A6C06700E460B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E9EA79616A6C06700E460B7 /* ConverterAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConverterAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9EA79716A6C06700E460B7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2E9EA79F16A6C06700E460B7 /* ConverterAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConverterAppTests-Info.plist"; sourceTree = "<group>"; };
 		2E9EA7A116A6C06700E460B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2E9EA7A316A6C06700E460B7 /* ConverterAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConverterAppTests.h; sourceTree = "<group>"; };
-		2E9EA7A416A6C06700E460B7 /* ConverterAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConverterAppTests.m; sourceTree = "<group>"; };
+		2E9EA7B516A6F54400E460B7 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKiwi.a; path = "Frameworks/Kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
+		2E9EA7B716A6F5F900E460B7 /* MathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2E5B42C716A855D80025FD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5B42DB16A8566A0025FD40 /* CFNetwork.framework in Frameworks */,
+				2E5B42C816A855D80025FD40 /* UIKit.framework in Frameworks */,
+				2E5B42C916A855D80025FD40 /* Foundation.framework in Frameworks */,
+				2E5B42CA16A855D80025FD40 /* CoreGraphics.framework in Frameworks */,
+				2E5B42D916A8564D0025FD40 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E9EA76916A6C06700E460B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9EA7B616A6F54400E460B7 /* libKiwi.a in Frameworks */,
 				2E9EA79816A6C06700E460B7 /* SenTestingKit.framework in Frameworks */,
 				2E9EA79916A6C06700E460B7 /* UIKit.framework in Frameworks */,
 				2E9EA79A16A6C06700E460B7 /* Foundation.framework in Frameworks */,
@@ -93,6 +134,7 @@
 				2E9EA79D16A6C06700E460B7 /* ConverterAppTests */,
 				2E9EA76F16A6C06700E460B7 /* Frameworks */,
 				2E9EA76D16A6C06700E460B7 /* Products */,
+				2E5B42D716A855D90025FD40 /* ConverterApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 			children = (
 				2E9EA76C16A6C06700E460B7 /* ConverterApp.app */,
 				2E9EA79616A6C06700E460B7 /* ConverterAppTests.octest */,
+				2E5B42D516A855D80025FD40 /* ConverterApp-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +151,9 @@
 		2E9EA76F16A6C06700E460B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E5B42DA16A8566A0025FD40 /* CFNetwork.framework */,
+				2E5B42D816A8564D0025FD40 /* calabash.framework */,
+				2E9EA7B516A6F54400E460B7 /* libKiwi.a */,
 				2E9EA77016A6C06700E460B7 /* UIKit.framework */,
 				2E9EA77216A6C06700E460B7 /* Foundation.framework */,
 				2E9EA77416A6C06700E460B7 /* CoreGraphics.framework */,
@@ -123,9 +169,14 @@
 				2E9EA78016A6C06700E460B7 /* AppDelegate.m */,
 				2E9EA78816A6C06700E460B7 /* MainStoryboard_iPhone.storyboard */,
 				2E9EA78B16A6C06700E460B7 /* MainStoryboard_iPad.storyboard */,
-				2E9EA78E16A6C06700E460B7 /* ViewController.h */,
-				2E9EA78F16A6C06700E460B7 /* ViewController.m */,
 				2E9EA77716A6C06700E460B7 /* Supporting Files */,
+				2E24A54D16A98C1A00FD1553 /* MileToKmViewController_iPhone.h */,
+				2E24A54E16A98C1A00FD1553 /* MileToKmViewController_iPhone.m */,
+				2E24A55216A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.h */,
+				2E24A55316A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m */,
+				2E24A55616A98C7C00FD1553 /* ConvertersViewController_iPad.h */,
+				2E24A55716A98C7C00FD1553 /* ConvertersViewController_iPad.m */,
+				2E24A55A16A9937100FD1553 /* AccessibilityIds.h */,
 			);
 			path = ConverterApp;
 			sourceTree = "<group>";
@@ -147,9 +198,8 @@
 		2E9EA79D16A6C06700E460B7 /* ConverterAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E9EA7A316A6C06700E460B7 /* ConverterAppTests.h */,
-				2E9EA7A416A6C06700E460B7 /* ConverterAppTests.m */,
 				2E9EA79E16A6C06700E460B7 /* Supporting Files */,
+				2E9EA7B716A6F5F900E460B7 /* MathSpec.m */,
 			);
 			path = ConverterAppTests;
 			sourceTree = "<group>";
@@ -166,6 +216,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2E5B42C216A855D80025FD40 /* ConverterApp-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5B42D216A855D80025FD40 /* Build configuration list for PBXNativeTarget "ConverterApp-cal" */;
+			buildPhases = (
+				2E5B42C316A855D80025FD40 /* Sources */,
+				2E5B42C716A855D80025FD40 /* Frameworks */,
+				2E5B42CB16A855D80025FD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConverterApp-cal";
+			productName = ConverterApp;
+			productReference = 2E5B42D516A855D80025FD40 /* ConverterApp-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2E9EA76B16A6C06700E460B7 /* ConverterApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9EA7A816A6C06700E460B7 /* Build configuration list for PBXNativeTarget "ConverterApp" */;
@@ -224,12 +291,26 @@
 			projectRoot = "";
 			targets = (
 				2E9EA76B16A6C06700E460B7 /* ConverterApp */,
+				2E5B42C216A855D80025FD40 /* ConverterApp-cal */,
 				2E9EA79516A6C06700E460B7 /* ConverterAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2E5B42CB16A855D80025FD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5B42CC16A855D80025FD40 /* InfoPlist.strings in Resources */,
+				2E5B42CD16A855D80025FD40 /* Default.png in Resources */,
+				2E5B42CE16A855D80025FD40 /* Default@2x.png in Resources */,
+				2E5B42CF16A855D80025FD40 /* Default-568h@2x.png in Resources */,
+				2E5B42D016A855D80025FD40 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2E5B42D116A855D80025FD40 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E9EA76A16A6C06700E460B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,13 +351,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E5B42C316A855D80025FD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5B42C416A855D80025FD40 /* main.m in Sources */,
+				2E5B42C516A855D80025FD40 /* AppDelegate.m in Sources */,
+				2E24A55016A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */,
+				2E24A55516A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m in Sources */,
+				2E24A55916A98C7C00FD1553 /* ConvertersViewController_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E9EA76816A6C06700E460B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E9EA77D16A6C06700E460B7 /* main.m in Sources */,
 				2E9EA78116A6C06700E460B7 /* AppDelegate.m in Sources */,
-				2E9EA79016A6C06700E460B7 /* ViewController.m in Sources */,
+				2E24A54F16A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */,
+				2E24A55416A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m in Sources */,
+				2E24A55816A98C7C00FD1553 /* ConvertersViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9EA7A516A6C06700E460B7 /* ConverterAppTests.m in Sources */,
+				2E9EA7B816A6F5F900E460B7 /* MathSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +429,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2E5B42D316A855D80025FD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConverterApp/ConverterApp-Prefix.pch";
+				INFOPLIST_FILE = "ConverterApp copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRANK_LIBRARY_SEARCH_PATHS)",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "ConverterApp-cal";
+				TEST_AFTER_BUILD = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E5B42D416A855D80025FD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConverterApp/ConverterApp-Prefix.pch";
+				INFOPLIST_FILE = "ConverterApp copy-Info.plist";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "ConverterApp-cal";
+				TEST_AFTER_BUILD = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		2E9EA7A616A6C06700E460B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,7 +533,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConverterApp/ConverterApp-Prefix.pch";
 				INFOPLIST_FILE = "ConverterApp/ConverterApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRANK_LIBRARY_SEARCH_PATHS)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(FRANK_LDFLAGS)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,6 +554,7 @@
 				GCC_PREFIX_HEADER = "ConverterApp/ConverterApp-Prefix.pch";
 				INFOPLIST_FILE = "ConverterApp/ConverterApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -419,8 +570,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConverterApp/ConverterApp-Prefix.pch";
 				INFOPLIST_FILE = "ConverterAppTests/ConverterAppTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -436,8 +590,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConverterApp/ConverterApp-Prefix.pch";
 				INFOPLIST_FILE = "ConverterAppTests/ConverterAppTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -445,6 +602,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E5B42D216A855D80025FD40 /* Build configuration list for PBXNativeTarget "ConverterApp-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5B42D316A855D80025FD40 /* Debug */,
+				2E5B42D416A855D80025FD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2E9EA76616A6C06700E460B7 /* Build configuration list for PBXProject "ConverterApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -461,6 +627,7 @@
 				2E9EA7AA16A6C06700E460B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E9EA7AB16A6C06700E460B7 /* Build configuration list for PBXNativeTarget "ConverterAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +636,7 @@
 				2E9EA7AD16A6C06700E460B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

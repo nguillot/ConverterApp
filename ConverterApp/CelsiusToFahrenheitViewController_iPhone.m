@@ -6,27 +6,25 @@
 //  Copyright (c) 2013 Ippon Technologies. All rights reserved.
 //
 
-#import "CelsiusToFahrenheitViewController.h"
+#import "CelsiusToFahrenheitViewController_iPhone.h"
 
-@interface CelsiusToFahrenheitViewController ()
+@interface CelsiusToFahrenheitViewController_iPhone ()
+
+@property (weak, nonatomic) IBOutlet UITextField *celsiusText;
+@property (weak, nonatomic) IBOutlet UIButton *convertButton;
+@property (weak, nonatomic) IBOutlet UILabel *fahrenheitResult;
 
 @end
 
-@implementation CelsiusToFahrenheitViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+@implementation CelsiusToFahrenheitViewController_iPhone
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+
+    self.celsiusText.accessibilityIdentifier = kCelsiusInputText;
+    self.convertButton.accessibilityIdentifier = kCelsiusToFahrenheitBtn;
+    self.fahrenheitResult.accessibilityIdentifier = kFahrenheitResult;
 }
 
 - (void)didReceiveMemoryWarning

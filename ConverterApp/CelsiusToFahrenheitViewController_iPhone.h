@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccessibilityIds.h"
 
-@interface CelsiusToFahrenheitViewController : UIViewController
+@interface CelsiusToFahrenheitViewController_iPhone : UIViewController
 
 @end

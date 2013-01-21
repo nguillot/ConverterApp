@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccessibilityIds.h"
 
-@interface MileToKmViewController : UIViewController
+@interface MileToKmViewController_iPhone : UIViewController
 
 @end

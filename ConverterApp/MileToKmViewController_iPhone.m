@@ -6,27 +6,29 @@
 //  Copyright (c) 2013 Ippon Technologies. All rights reserved.
 //
 
-#import "MileToKmViewController.h"
+#import "MileToKmViewController_iPhone.h"
 
-@interface MileToKmViewController ()
+@interface MileToKmViewController_iPhone ()
+
+@property (weak, nonatomic) IBOutlet UITextField *milesText;
+@property (weak, nonatomic) IBOutlet UILabel *kmResult;
+@property (weak, nonatomic) IBOutlet UIButton *convertBtn;
 
 @end
 
-@implementation MileToKmViewController
+@implementation MileToKmViewController_iPhone
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+	// pour l'exemple, peut être définit dans IB
+    self.milesText.isAccessibilityElement = YES;
+    
+    self.milesText.accessibilityIdentifier = kMilesInputText;
+    self.convertBtn.accessibilityIdentifier = kMilesToKmBtn;
+    self.kmResult.accessibilityIdentifier = kKmResult;
 }
 
 - (void)didReceiveMemoryWarning
