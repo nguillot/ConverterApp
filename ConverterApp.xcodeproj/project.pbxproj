@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2433F916AD8E1000E05C84 /* ConverterSpec.m in Resources */ = {isa = PBXBuildFile; fileRef = 2E2433F816AD8E1000E05C84 /* ConverterSpec.m */; };
+		2E2433FB16AD8E4600E05C84 /* ConverterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2433F816AD8E1000E05C84 /* ConverterSpec.m */; };
 		2E24A54F16A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A54E16A98C1A00FD1553 /* MileToKmViewController_iPhone.m */; };
 		2E24A55016A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A54E16A98C1A00FD1553 /* MileToKmViewController_iPhone.m */; };
 		2E24A55416A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A55316A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m */; };
@@ -26,6 +28,9 @@
 		2E5B42D116A855D80025FD40 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EA78B16A6C06700E460B7 /* MainStoryboard_iPad.storyboard */; };
 		2E5B42D916A8564D0025FD40 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5B42D816A8564D0025FD40 /* calabash.framework */; };
 		2E5B42DB16A8566A0025FD40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5B42DA16A8566A0025FD40 /* CFNetwork.framework */; };
+		2E8B38E016AD92C400C0195B /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B38DF16AD92C400C0195B /* Converter.m */; };
+		2E8B38E116AD92C400C0195B /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B38DF16AD92C400C0195B /* Converter.m */; };
+		2E8B38E216AD92C400C0195B /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B38DF16AD92C400C0195B /* Converter.m */; };
 		2E9EA77116A6C06700E460B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77016A6C06700E460B7 /* UIKit.framework */; };
 		2E9EA77316A6C06700E460B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77216A6C06700E460B7 /* Foundation.framework */; };
 		2E9EA77516A6C06700E460B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9EA77416A6C06700E460B7 /* CoreGraphics.framework */; };
@@ -56,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E2433F816AD8E1000E05C84 /* ConverterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterSpec.m; sourceTree = "<group>"; };
 		2E24A54D16A98C1A00FD1553 /* MileToKmViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileToKmViewController_iPhone.h; sourceTree = "<group>"; };
 		2E24A54E16A98C1A00FD1553 /* MileToKmViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileToKmViewController_iPhone.m; sourceTree = "<group>"; };
 		2E24A55216A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelsiusToFahrenheitViewController_iPhone.h; sourceTree = "<group>"; };
@@ -67,6 +73,8 @@
 		2E5B42D716A855D90025FD40 /* ConverterApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConverterApp copy-Info.plist"; path = "/Users/ARD/Documents/projets/ConverterApp/ConverterApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		2E5B42D816A8564D0025FD40 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 		2E5B42DA16A8566A0025FD40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2E8B38DE16AD92C400C0195B /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		2E8B38DF16AD92C400C0195B /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 		2E9EA76C16A6C06700E460B7 /* ConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9EA77016A6C06700E460B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2E9EA77216A6C06700E460B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -177,6 +185,8 @@
 				2E24A55616A98C7C00FD1553 /* ConvertersViewController_iPad.h */,
 				2E24A55716A98C7C00FD1553 /* ConvertersViewController_iPad.m */,
 				2E24A55A16A9937100FD1553 /* AccessibilityIds.h */,
+				2E8B38DE16AD92C400C0195B /* Converter.h */,
+				2E8B38DF16AD92C400C0195B /* Converter.m */,
 			);
 			path = ConverterApp;
 			sourceTree = "<group>";
@@ -200,6 +210,7 @@
 			children = (
 				2E9EA79E16A6C06700E460B7 /* Supporting Files */,
 				2E9EA7B716A6F5F900E460B7 /* MathSpec.m */,
+				2E2433F816AD8E1000E05C84 /* ConverterSpec.m */,
 			);
 			path = ConverterAppTests;
 			sourceTree = "<group>";
@@ -329,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9EA7A216A6C06700E460B7 /* InfoPlist.strings in Resources */,
+				2E2433F916AD8E1000E05C84 /* ConverterSpec.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +372,7 @@
 				2E24A55016A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */,
 				2E24A55516A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m in Sources */,
 				2E24A55916A98C7C00FD1553 /* ConvertersViewController_iPad.m in Sources */,
+				2E8B38E116AD92C400C0195B /* Converter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +385,7 @@
 				2E24A54F16A98C1A00FD1553 /* MileToKmViewController_iPhone.m in Sources */,
 				2E24A55416A98C3700FD1553 /* CelsiusToFahrenheitViewController_iPhone.m in Sources */,
 				2E24A55816A98C7C00FD1553 /* ConvertersViewController_iPad.m in Sources */,
+				2E8B38E016AD92C400C0195B /* Converter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +393,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2433FB16AD8E4600E05C84 /* ConverterSpec.m in Sources */,
 				2E9EA7B816A6F5F900E460B7 /* MathSpec.m in Sources */,
+				2E8B38E216AD92C400C0195B /* Converter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
