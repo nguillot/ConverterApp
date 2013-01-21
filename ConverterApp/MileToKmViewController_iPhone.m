@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *kmResult;
 @property (weak, nonatomic) IBOutlet UIButton *convertBtn;
 
+- (IBAction)convertMiles:(id)sender;
 @end
 
 @implementation MileToKmViewController_iPhone
@@ -37,4 +38,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertMiles:(id)sender
+{
+    self.kmResult.text = [Converter kmFromMiles:self.milesText.text locale:[NSLocale currentLocale]];
+}
 @end

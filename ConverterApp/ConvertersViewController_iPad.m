@@ -16,6 +16,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *celsiusText;
 @property (weak, nonatomic) IBOutlet UIButton *degreConvertBtn;
 @property (weak, nonatomic) IBOutlet UILabel *fahrenheitResult;
+
+- (IBAction)convertMiles:(id)sender;
+- (IBAction)convertCelsius:(id)sender;
+
 @end
 
 @implementation ConvertersViewController_iPad
@@ -38,4 +42,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertMiles:(id)sender
+{
+    self.kmResult.text = [Converter kmFromMiles:self.milesText.text locale:[NSLocale currentLocale]];    
+}
+
+- (IBAction)convertCelsius:(id)sender
+{
+    self.fahrenheitResult.text = [Converter fahrenheitFromCelsius:self.celsiusText.text locale:[NSLocale currentLocale]];
+}
 @end

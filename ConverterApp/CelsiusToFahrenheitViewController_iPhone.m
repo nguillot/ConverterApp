@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *convertButton;
 @property (weak, nonatomic) IBOutlet UILabel *fahrenheitResult;
 
+- (IBAction)convertCelsius:(id)sender;
 @end
 
 @implementation CelsiusToFahrenheitViewController_iPhone
@@ -33,4 +34,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertCelsius:(id)sender
+{
+    self.fahrenheitResult.text = [Converter fahrenheitFromCelsius:self.celsiusText.text locale:[NSLocale currentLocale]];    
+}
 @end

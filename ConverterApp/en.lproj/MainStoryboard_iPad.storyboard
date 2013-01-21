@@ -26,6 +26,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="convertMiles:" destination="2" eventType="touchUpInside" id="6vF-qg-RqD"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3q3-03-bEC">
                                 <constraints>
@@ -59,6 +62,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="convertCelsius:" destination="2" eventType="touchUpInside" id="5LF-T9-VU9"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8ji-oH-a83">
                                 <constraints>
@@ -102,14 +108,14 @@
                             <constraint firstItem="8ji-oH-a83" firstAttribute="trailing" secondItem="3q3-03-bEC" secondAttribute="trailing" type="default" id="fLk-ZB-QMs"/>
                             <constraint firstAttribute="trailing" secondItem="iSV-rv-Q3a" secondAttribute="trailing" constant="56" id="gFq-dh-MLk"/>
                             <constraint firstItem="3q3-03-bEC" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="121" id="gnt-bP-UyB"/>
-                            <constraint firstItem="X28-Me-LJI" firstAttribute="baseline" secondItem="hs5-R7-JZb" secondAttribute="baseline" type="default" id="tjY-CI-VPr"/>
+                            <constraint firstItem="X28-Me-LJI" firstAttribute="baseline" secondItem="hs5-R7-JZb" secondAttribute="baseline" type="user" id="tjY-CI-VPr"/>
                             <constraint firstItem="hs5-R7-JZb" firstAttribute="leading" secondItem="6uJ-7F-JdU" secondAttribute="leading" type="default" id="wQh-iC-4wh"/>
                             <constraint firstItem="X28-Me-LJI" firstAttribute="leading" secondItem="IZP-cb-nig" secondAttribute="leading" type="default" id="xec-aY-gSW"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="celsiusText" destination="8ji-oH-a83" id="bCi-9w-yY2"/>
-                        <outlet property="degreConvertBtn" destination="X28-Me-LJI" id="aup-Wx-s8N"/>
+                        <outlet property="degreConvertBtn" destination="X28-Me-LJI" id="BJD-6X-5Vu"/>
                         <outlet property="fahrenheitResult" destination="1UM-bf-ZkE" id="Hzt-Le-lqZ"/>
                         <outlet property="kmResult" destination="iSV-rv-Q3a" id="Dyj-wx-119"/>
                         <outlet property="milesConvertBtn" destination="IZP-cb-nig" id="GQm-Ff-CLq"/>
@@ -121,21 +127,6 @@
             <point key="canvasLocation" x="-142" y="-158"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="ConvertersViewController_iPad" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ConvertersViewController_iPad.h"/>
-            <relationships>
-                <relationship kind="outlet" name="celsiusText" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="degreConvertBtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="kmResult" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="milesConvertBtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="milesText" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

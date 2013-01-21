@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AccessibilityIds.h"
+#import "Converter.h"
 
 @interface MileToKmViewController_iPhone : UIViewController
 
