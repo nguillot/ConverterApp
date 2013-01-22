@@ -40,6 +40,7 @@
 
 - (IBAction)convertMiles:(id)sender
 {
-    self.kmResult.text = [Converter kmFromMiles:self.milesText.text locale:[NSLocale currentLocale]];
+    [self.milesText resignFirstResponder];    
+    self.kmResult.text = [NSString stringWithFormat:@"%@ km",[Converter kmFromMiles:self.milesText.text locale:[NSLocale currentLocale]] ];
 }
 @end

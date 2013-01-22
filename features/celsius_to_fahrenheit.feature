@@ -13,6 +13,12 @@ Scenario Outline: Convert celsius to fahrenheit
 	And I touch the 'convert celsius to fahrenheit' button
 	Then I should see <fahrenheit> in 'fahrenheit result'
 
+Examples:
+	| celsius	| fahrenheit	|
+	| 0	        | 32°F	        |
+	| 5	        | 41°F	        |
+	| 20	    | 68°F	        |
+
 @iPad
 Scenario Outline: Convert celsius to fahrenheit
 	Given I launch the app
@@ -20,7 +26,6 @@ Scenario Outline: Convert celsius to fahrenheit
 	And I touch the 'convert celsius to fahrenheit' button
 	Then I should see <fahrenheit> in 'fahrenheit result'
 
-@iPhone @iPad
 Examples:
 	| celsius	| fahrenheit	|
 	| 0	        | 32°F	        |

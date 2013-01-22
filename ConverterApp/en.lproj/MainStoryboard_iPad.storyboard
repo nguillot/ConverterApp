@@ -73,7 +73,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="32 °F" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UM-bf-ZkE">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="32°F" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UM-bf-ZkE">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -127,6 +127,24 @@
             <point key="canvasLocation" x="-142" y="-158"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="ConvertersViewController_iPad" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ConvertersViewController_iPad.h"/>
+            <relationships>
+                <relationship kind="action" name="convertCelsius:"/>
+                <relationship kind="action" name="convertMiles:"/>
+                <relationship kind="outlet" name="celsiusText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="degreConvertBtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fahrenheitResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="kmResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="milesConvertBtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="milesText" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

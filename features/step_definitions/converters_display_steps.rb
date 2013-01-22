@@ -10,7 +10,7 @@ Then /^I can choose between '(.*?)' and '(.*?)' converters$/ do |converter1,conv
 end
 
 When /^I navigate to '(.*?)'$/ do |converter|
- if converter == 'miles/km'
+ if converter.eql? 'miles/km'
    touch "tabBarButton index:0"
  else
    touch "tabBarButton index:1"

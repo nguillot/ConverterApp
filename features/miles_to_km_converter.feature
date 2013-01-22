@@ -13,6 +13,12 @@ Scenario Outline: Convert miles to km
 	And I touch the 'convert miles to km' button
 	Then I should see <km> in 'km result'
 
+Examples:
+	| miles	| km	    |
+	| 0	    | 0 km	    |
+	| 1	    | 1.609 km	|
+	| 2	    | 3.218 km  |
+
 @iPad
 Scenario Outline: Convert miles to km
 	Given I launch the app
@@ -20,9 +26,8 @@ Scenario Outline: Convert miles to km
 	And I touch the 'convert miles to km' button
 	Then I should see <km> in 'km result'
 
-@iPhone @iPad
 Examples:
-	| miles	| km	|
-	| 0	    | 0	    |
-	| 1	    | 1.609	|
-	| 2	    | 3.218	|
+	| miles	| km	    |
+	| 0	    | 0 km	    |
+	| 1	    | 1.609 km	|
+	| 2	    | 3.218 km  |

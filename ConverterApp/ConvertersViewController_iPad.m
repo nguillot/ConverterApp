@@ -44,11 +44,13 @@
 
 - (IBAction)convertMiles:(id)sender
 {
-    self.kmResult.text = [Converter kmFromMiles:self.milesText.text locale:[NSLocale currentLocale]];    
+    [self.milesText resignFirstResponder];
+    self.kmResult.text = [NSString stringWithFormat:@"%@ km",[Converter kmFromMiles:self.milesText.text locale:[NSLocale currentLocale]] ];
 }
 
 - (IBAction)convertCelsius:(id)sender
 {
-    self.fahrenheitResult.text = [Converter fahrenheitFromCelsius:self.celsiusText.text locale:[NSLocale currentLocale]];
+    [self.celsiusText resignFirstResponder];
+    self.fahrenheitResult.text = [NSString stringWithFormat:@"%@°F",[Converter fahrenheitFromCelsius:self.celsiusText.text locale:[NSLocale currentLocale]]];
 }
 @end
