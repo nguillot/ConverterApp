@@ -37,6 +37,10 @@
 - (IBAction)convertCelsius:(id)sender
 {
     [self.celsiusText resignFirstResponder];
-    self.fahrenheitResult.text = [NSString stringWithFormat:@"%@°F",[Converter fahrenheitFromCelsius:self.celsiusText.text locale:[NSLocale currentLocale]]];    
+    NSString *result = [Converter fahrenheitFromCelsius:self.celsiusText.text locale:[NSLocale currentLocale]];
+    if(result)
+        self.fahrenheitResult.text = [NSString stringWithFormat:@"%@°F",result ];
+    else
+        self.fahrenheitResult.text = @"-";
 }
 @end

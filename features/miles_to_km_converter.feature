@@ -18,6 +18,7 @@ Examples:
 	| 0	    | 0 km	    |
 	| 1	    | 1.609 km	|
 	| 2	    | 3.218 km  |
+	| error | -         |
 
 @iPad
 Scenario Outline: Convert miles to km
@@ -31,3 +32,4 @@ Examples:
 	| 0	    | 0 km	    |
 	| 1	    | 1.609 km	|
 	| 2	    | 3.218 km  |
+	| error | -         |

@@ -18,6 +18,7 @@ Examples:
 	| 0	        | 32°F	        |
 	| 5	        | 41°F	        |
 	| 20	    | 68°F	        |
+	| error	    | -	            |
 
 @iPad
 Scenario Outline: Convert celsius to fahrenheit
@@ -31,3 +32,4 @@ Examples:
 	| 0	        | 32°F	        |
 	| 5	        | 41°F	        |
 	| 20	    | 68°F	        |
+	| error	    | -	            |

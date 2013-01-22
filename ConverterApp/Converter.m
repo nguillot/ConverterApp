@@ -12,13 +12,26 @@
 
 + (NSDecimalNumberHandler *)decimalNumberHandler;
 + (NSString *)stringFromNumber:(NSDecimalNumber *)number locale:(NSLocale *)locale;
-
++ (BOOL)isDecimalNumberString:(NSString *)mystring locale:(NSLocale *)locale;
 @end
 
 @implementation Converter
 
++ (BOOL)isDecimalNumberString:(NSString *)mystring locale:(NSLocale *)locale
+{
+    double d;
+    int i;
+    NSScanner *scanner = [NSScanner scannerWithString:mystring];
+    scanner.locale = locale;
+    
+    return[scanner scanDouble:&d] || [scanner scanInt:&i];
+}
+
 + (NSString *)kmFromMiles:(NSString *)miles locale:(NSLocale *)locale
-{    
+{
+    if(![Converter isDecimalNumberString:miles locale:locale])
+        return nil;
+    
     //on parse le nombre selon la locale
     NSDecimalNumber *milesNumber = [NSDecimalNumber decimalNumberWithString:miles locale:locale];
     
@@ -34,6 +47,9 @@
 
 + (NSString *)fahrenheitFromCelsius:(NSString *)celsius locale:(NSLocale *)locale
 {
+    if(![Converter isDecimalNumberString:celsius locale:locale])
+        return nil;
+    
     //on parse le nombre selon la locale
     NSDecimalNumber *celsiusNumber = [NSDecimalNumber decimalNumberWithString:celsius locale:locale];
     

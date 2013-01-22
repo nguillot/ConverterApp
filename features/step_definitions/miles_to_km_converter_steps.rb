@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-When /^I fill in  'miles input text' with (\d+)$/ do |arg1|
+When /^I fill in  'miles input text' with (.*?)$/ do |arg1|
   wait_for(:timeout => 5) { element_exists("textField marked:'miles input text'") }
   set_text("textField marked:'miles input text'", arg1)
 end
